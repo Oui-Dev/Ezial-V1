@@ -1,0 +1,35 @@
+# Htaccess protection
+<files .htaccess>
+    order allow,deny
+    deny from all
+</files>
+
+# SUPPRESSION DE L'EXTENSION ET ERREUR 404 si .php
+RewriteRule ^(.+)\.php$ https://%{HTTP_HOST}/$1 [L,R=404]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# REGLES SUPPLEMENTAIRES
+DirectoryIndex index.php
+Options -Indexes
+
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+    # Cache 30j
+    <FilesMatch "\.(ico|gif|swf|css|gz|svg|jpe?g|png|webp)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+    # Cache 15j
+    <FilesMatch "\.(js)$">
+        Header set Cache-Control "max-age=1296000, private"
+    </FilesMatch>
+    # Cache 2h
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=7200, public"
+    </FilesMatch>
+    # Cache désactivé
+    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+        Header unset Cache-Control
+    </FilesMatch>
+</IfModule>
+# END Cache-Control Headers

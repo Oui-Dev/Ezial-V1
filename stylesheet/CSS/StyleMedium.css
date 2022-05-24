@@ -1,0 +1,8 @@
+/* --------------------------- PORTFOLIO CONTENT --------------------------- */
+.grid {
+    padding: 15px;
+    gap: 15px;
+}
+.grid li{
+    gap: 15px;
+}
