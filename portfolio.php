@@ -42,10 +42,28 @@
             <ul class="grid" id="projectsList">
                 <li>
                     <figure class="projectCard">
-                        <img src="stylesheet/IMG/Project/chalet/workInProgress.webp" alt="Illustration"/>
+                        <img src="stylesheet/IMG/Project/safearea/workInProgress.webp" alt="Illustration"/>
                         <div class="darkBG"></div>
                         <figcaption data-project="6">
-                            <h2>Chalet<br><span>Gerardmer</span></h2>
+                            <h2>Safe-<span>Area</span></h2>
+                            <i class='bx bx-plus'></i>
+                        </figcaption>
+                    </figure>
+                    <figure class="projectCard">
+                        <img src="stylesheet/IMG/Project/trouvotto/workInProgress.webp" alt="Illustration"/>
+                        <div class="darkBG"></div>
+                        <figcaption data-project="5">
+                            <h2>Trouvotto</h2>
+                            <i class='bx bx-plus'></i>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="projectCard">
+                        <img src="stylesheet/IMG/Project/vosConges/workInProgress.webp" alt="Illustration"/>
+                        <div class="darkBG"></div>
+                        <figcaption data-project="6">
+                            <h2>Vos<br><span>Congés</span></h2>
                             <i class='bx bx-plus'></i>
                         </figcaption>
                     </figure>

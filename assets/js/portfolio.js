@@ -82,14 +82,34 @@ function closeProject() {
 // Fonction chargée de fournir les infos sur un projet selon un id
 function projectProvider(projectID) {
     const projects = [{
-        id: 6,
-        name: "Chalet Gerardmer",
-        images: ["chalet/workInProgress.webp"],
+        id: 8,
+        name: "Safe-Area",
+        images: ["safearea/workInProgress.webp"],
         imageFormat: "computer",
-        client: "Particulier",
-        date: "Prochainement",
-        language: "En construction",
-        description: "Développement d'un site vitrine, pour mettre en avant un chalet en location."
+        client: "Projet scolaire",
+        date: "Octobre-Maintenant",
+        language: "Laravel / Vue.js / Inertia.js / TailwindCSS / SCSS",
+        description: "Développement d'une application web permettant à toutes entreprises, de gérer les plaintes de leurs employés de façon sécurisée et anonyme.",
+    },
+    {
+        id: 7,
+        name: "Trouvotto",
+        images: ["trouvotto/workInProgress.webp"],
+        imageFormat: "computer",
+        client: "Astronaut-Agency, Alternance de Master",
+        date: "Septembre-Octobre 2022",
+        language: "Laravel / Vue.js / Inertia.js / TailwindCSS / SCSS",
+        description: "Développement d'un site web dont le but est de permettre aux utilisateurs, de trouver leurs voitures idéales en fonction de leurs critères.",
+    },
+    {
+        id: 6,
+        name: "Vos Congés",
+        images: ["vosConges/workInProgress.webp"],
+        imageFormat: "computer",
+        client: "Ogiciel, Alternance de LP",
+        date: "Juin-Août 2022",
+        language: "HTML / CSS / JavaScript / PHP / SQL",
+        description: "Développement d'une application web dont le but est de permettre à toute entité, de pouvoir disposer d'un outil de gestion de congés pour ses employés."
     },
     {
         id: 5,

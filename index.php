@@ -58,6 +58,10 @@
                     <div class="card-content">
                         <div class="card-subtitle">Expériences professionnelles</div>
                         <div class="card-timeline">
+                            <div class="card-item" data-year="2023">
+                                <div class="card-item-title">Développeur full-stack, <span>Astronaut-Agency</span></div>
+                                <div class="card-item-desc">Alternance pour mon Master : Je suis chargé du développement full stack de divers projets.</div>
+                            </div>
                             <div class="card-item" data-year="2022">
                                 <div class="card-item-title">Développeur full-stack, <span>OGICIEL</span></div>
                                 <div class="card-item-desc">Alternance pour ma licence professionnelle : Je suis chargé du développement full stack de divers projets.</div>
@@ -84,7 +88,7 @@
                         <div class="card-contact-wrapper">
                             <div class="card-contact">
                                 <i class='bx bx-map'></i>
-                                <a href="https://www.google.com/maps/place/88100+Saint-Di%C3%A9-des-Vosges/" target="_blank">Saint-Dié-des-Vosges, 88100</a>
+                                <a href="https://www.google.com/maps/place/88100+Saint-Di%C3%A9-des-Vosges/" target="_blank">Lyon, 69003</a>
                             </div>
                             <div class="card-contact">
                                 <i class='bx bx-phone'></i>
