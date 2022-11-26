@@ -89,6 +89,7 @@ function projectProvider(projectID) {
         client: "Projet scolaire",
         date: "Octobre-Maintenant",
         language: "Laravel / Vue.js / Inertia.js / TailwindCSS / SCSS",
+        url: "http://safearea.ml/",
         description: "Développement d'une application web permettant à toutes entreprises, de gérer les plaintes de leurs employés de façon sécurisée et anonyme.",
     },
     {
@@ -99,6 +100,7 @@ function projectProvider(projectID) {
         client: "Astronaut-Agency, Alternance de Master",
         date: "Septembre-Octobre 2022",
         language: "Laravel / Vue.js / Inertia.js / TailwindCSS / SCSS",
+        url: "https://www.trouvotto.com/",
         description: "Développement d'un site web dont le but est de permettre aux utilisateurs, de trouver leurs voitures idéales en fonction de leurs critères.",
     },
     {
@@ -109,6 +111,7 @@ function projectProvider(projectID) {
         client: "Ogiciel, Alternance de LP",
         date: "Juin-Août 2022",
         language: "HTML / CSS / JavaScript / PHP / SQL",
+        url: "https://vosconges.com/",
         description: "Développement d'une application web dont le but est de permettre à toute entité, de pouvoir disposer d'un outil de gestion de congés pour ses employés."
     },
     {
