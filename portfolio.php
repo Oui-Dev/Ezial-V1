@@ -42,17 +42,17 @@
             <ul class="grid" id="projectsList">
                 <li>
                     <figure class="projectCard">
-                        <img src="stylesheet/IMG/Project/safearea/workInProgress.webp" alt="Illustration"/>
+                        <img src="stylesheet/IMG/Project/safearea/index.webp" alt="Illustration"/>
                         <div class="darkBG"></div>
-                        <figcaption data-project="6">
+                        <figcaption data-project="8">
                             <h2>Safe-<span>Area</span></h2>
                             <i class='bx bx-plus'></i>
                         </figcaption>
                     </figure>
                     <figure class="projectCard">
-                        <img src="stylesheet/IMG/Project/trouvotto/workInProgress.webp" alt="Illustration"/>
+                        <img src="stylesheet/IMG/Project/trouvotto/index.webp" alt="Illustration"/>
                         <div class="darkBG"></div>
-                        <figcaption data-project="5">
+                        <figcaption data-project="7">
                             <h2>Trouvotto</h2>
                             <i class='bx bx-plus'></i>
                         </figcaption>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                     <figure class="projectCard">
-                        <img src="stylesheet/IMG/Project/vosConges/workInProgress.webp" alt="Illustration"/>
+                        <img src="stylesheet/IMG/Project/vosConges/index.webp" alt="Illustration"/>
                         <div class="darkBG"></div>
                         <figcaption data-project="6">
                             <h2>Vos<br><span>Congés</span></h2>

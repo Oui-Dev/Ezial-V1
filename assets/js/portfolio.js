@@ -94,7 +94,7 @@ function projectProvider(projectID) {
     {
         id: 7,
         name: "Trouvotto",
-        images: ["trouvotto/workInProgress.webp"],
+        images: ["trouvotto/index.webp", "trouvotto/test1.webp", "trouvotto/test2.webp"],
         imageFormat: "computer",
         client: "Astronaut-Agency, Alternance de Master",
         date: "Septembre-Octobre 2022",
@@ -104,7 +104,7 @@ function projectProvider(projectID) {
     {
         id: 6,
         name: "Vos Congés",
-        images: ["vosConges/workInProgress.webp"],
+        images: ["vosConges/login.webp", "vosConges/index.webp", "vosConges/admin.webp"],
         imageFormat: "computer",
         client: "Ogiciel, Alternance de LP",
         date: "Juin-Août 2022",
