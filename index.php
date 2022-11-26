@@ -50,6 +50,7 @@
                     <div class="card-social">
                         <a href="portfolio" id="portfolio">Portfolio</a>
                         <a href="https://www.linkedin.com/in/k%C3%A9vin-blaise/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Oui-Dev" target="_blank"><i class='bx bxl-github'></i></a>
                         <a href="https://www.instagram.com/kevin.blse/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
                     </div>
                 </div>
